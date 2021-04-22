@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using hello_azure.Models;
+using HelloAzure.Models;
 
-namespace hello_azure.Controllers
+namespace HelloAzure.Controllers
 {
   [Route("api/[controller]")]
   [ApiController]

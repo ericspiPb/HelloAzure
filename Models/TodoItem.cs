@@ -1,4 +1,4 @@
-namespace hello_azure.Models
+namespace HelloAzure.Models
 {
   public class TodoItem
   {

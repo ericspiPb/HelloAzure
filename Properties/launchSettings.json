@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "hello_azure": {
+    "HelloAzure": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

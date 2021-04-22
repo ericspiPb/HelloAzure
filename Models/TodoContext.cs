@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace hello_azure.Models
+namespace HelloAzure.Models
 {
   public class TodoContext : DbContext
   {

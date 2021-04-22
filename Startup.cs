@@ -12,9 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
-using hello_azure.Models;
+using HelloAzure.Models;
 
-namespace hello_azure
+namespace HelloAzure
 {
   public class Startup
   {
@@ -33,7 +33,7 @@ namespace hello_azure
       services.AddControllers();
       services.AddSwaggerGen(c =>
       {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "hello_azure", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "HelloAzure", Version = "v1" });
       });
     }
 
@@ -44,7 +44,7 @@ namespace hello_azure
       {
         app.UseDeveloperExceptionPage();
         app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "hello_azure v1"));
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HelloAzure v1"));
       }
 
       app.UseHttpsRedirection();

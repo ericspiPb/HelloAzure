@@ -1,6 +1,6 @@
 using System;
 
-namespace hello_azure
+namespace HelloAzure
 {
     public class WeatherForecast
     {
